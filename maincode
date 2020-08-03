@@ -1,0 +1,27 @@
+a = str(input("Olá. Sou a Lais! Vou te ajudar a encontrar o melhor produto da LLumar para você; mas primeiro, diga se você deseja informações de produto para tua casa ou carro   "))
+if a == str("carro"):
+    print("\n"
+          "\n Ótimo! Vamos falar sobre películas automotivas. Temos as seguintes linhas:"
+          "\n"
+          "\n Controle de Temperatura e Luz"
+          "\n Estilo e Aparência"
+          "\n Segurança e Proteção Anti Crime"
+          "\n Proteção para Pintura")
+    
+elif a == str("casa"):
+    print('Ok. Vamos então falar sobre películas arquitetônicas')
+else:
+    print("Desculpe; não entendi o que você quis dizer. Escreva carro ou casa")
+
+b = str(input("Em qual dessas linhas você tem mais interesse?"))
+
+if b == str("Controle de Temperatura e Luz"):
+     print("\n"
+          "\n A linha de Controle de Temperatura e Luz fornece a você e à tua família um ambiente confortável no interior do veículo, "
+          "\n tornando a temperatura e luminosidade agradáveis, além de proteção contra os raios UV."
+          "\n Descubra mais acessando o link abaixo:"
+          "\n"
+          "\n https://w3.llumar.com/pt/AutoSolarControl.aspx")
+else:
+    print("Desculpe. Não entendi!")
+#end
